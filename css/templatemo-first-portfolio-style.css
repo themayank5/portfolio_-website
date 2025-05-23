@@ -896,8 +896,8 @@ strong {
 -----------------------------------------*/
 .site-footer {
   border-top: 1px solid var(--border-color);
-  padding-top: 50px;
-  padding-bottom: 50px;
+      padding-top: 15px;
+    padding-bottom: 15px;
   text-align: center;
 }
 
