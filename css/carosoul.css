@@ -398,6 +398,97 @@ input[type="radio"] {
 
 
 
+/* unifycloud.com */
+#slideunifyclouscom1:checked ~ .slides {
+    transform: translateX(0);
+}
+
+#slideunifyclouscom2:checked ~ .slides {
+    transform: translateX(-100%);
+}
+
+#slideunifyclouscom3:checked ~ .slides {
+    transform: translateX(-200%);
+}
+
+#slideunifyclouscom4:checked ~ .slides {
+    transform: translateX(-300%);
+}
+
+#slideunifyclouscom5:checked ~ .slides {
+    transform: translateX(-400%);
+}
+
+#slideunifyclouscom6:checked ~ .slides {
+    transform: translateX(-500%);
+}
+
+#slideunifyclouscom7:checked ~ .slides {
+    transform: translateX(-600%);
+}
+
+#slideunifyclouscom8:checked ~ .slides {
+    transform: translateX(-700%);
+}
+
+#slideunifyclouscom9:checked ~ .slides {
+    transform: translateX(-800%);
+}
+
+#slideunifyclouscom10:checked ~ .slides {
+    transform: translateX(-900%);
+}
+
+#slideunifyclouscom11:checked ~ .slides {
+    transform: translateX(-1000%);
+}
+
+#slideunifyclouscom12:checked ~ .slides {
+    transform: translateX(-1100%);
+}
+
+#slideunifyclouscom13:checked ~ .slides {
+    transform: translateX(-1200%);
+}
+
+#slideunifyclouscom14:checked ~ .slides {
+    transform: translateX(-1300%);
+}
+
+#slideunifyclouscom15:checked ~ .slides {
+    transform: translateX(-1400%);
+}
+
+#slideunifyclouscom16:checked ~ .slides {
+    transform: translateX(-1500%);
+}
+
+#slideunifyclouscom17:checked ~ .slides {
+    transform: translateX(-1600%);
+}
+
+#slideunifyclouscom18:checked ~ .slides {
+    transform: translateX(-1700%);
+}
+
+#slideunifyclouscom19:checked ~ .slides {
+    transform: translateX(-1800%);
+}
+#slideunifyclouscom20:checked ~ .slides {
+    transform: translateX(-1800%);
+}
+#slideunifyclouscom21:checked ~ .slides {
+    transform: translateX(-1800%);
+}
+#slideunifyclouscom22:checked ~ .slides {
+    transform: translateX(-1800%);
+}
+#slideunifyclouscom23:checked ~ .slides {
+    transform: translateX(-1800%);
+}
+
+
+
 
 
 
@@ -717,7 +808,7 @@ input[type="radio"]:checked + .nav-dot {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 79% !important;
+    width: 79% ;
     pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
@@ -744,6 +835,11 @@ input[type="radio"]:checked + .nav-dot {
 }
 
 #proptifi .modal-body{
+    height: calc(100vh - 145px);
+    overflow: auto;
+}
+
+#unifycloud1 .modal-body{
     height: calc(100vh - 145px);
     overflow: auto;
 }

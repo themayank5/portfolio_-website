@@ -713,6 +713,12 @@ strong {
   pointer-events: none;
 }
 
+.btn-primary:focus {
+    color: #fff;
+    background-color: none;
+    border-color:none;
+    box-shadow: none;
+}
 
 /*---------------------------------------
   PROJECTS              
@@ -725,9 +731,9 @@ strong {
   overflow: hidden;
   margin-top: 24px;
   margin-bottom: 0px;
-  padding: 40px;
+  padding: 6px !important;
   transition: all ease 0.5s;
-  height: 46vh;
+  height: 30vh;
 }
 
 .projects-thumb:hover {
@@ -770,6 +776,7 @@ strong {
   color: black;
   text-transform: uppercase;
   margin-bottom: 5px;
+  font-size: 32px !important;
 }
 
 
@@ -889,6 +896,10 @@ strong {
 }
 .fs-14{
   font-size: 18px;
+      font-weight: 500;
+}
+.fs-25{
+  font-size: 25px;
 }
 
 /*---------------------------------------
@@ -1056,7 +1067,7 @@ strong {
 
   .navbar-brand,
   .navbar-brand:hover {
-    color: var(--dark-color);
+            color: #ffffff;
   }
 
   .navbar-icon {
@@ -1149,6 +1160,26 @@ strong {
     margin-right: 12px;
     margin-left: 12px;
   }
+  .main-containerr{
+    margin-top: 80px !important;
+  }
+  .checkit a {
+    color: #14b789;
+    font-size: 20px;
+}
+.fs-14{
+  font-size: 16px;
+}
+.modal-content {
+   
+    width: 100% !important;
+   
+}
+    .navbar .container {
+        margin-right: 12px;
+        margin-left: 12px;
+        padding: 10px 10px;
+    }
 }
 
 @media screen and (max-width: 480px) {
